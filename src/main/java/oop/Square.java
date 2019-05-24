@@ -1,6 +1,6 @@
 package oop;
 
-public class Square extends AShape  {
+public class Square implements IColor, IShape {
 
     private double side;
 
@@ -20,5 +20,19 @@ public class Square extends AShape  {
     @Override
     public double getPerimeter() {
         return side * 4;
+    }
+
+    public String getColor() {
+        return null;
+    }
+
+    @Override
+    public String getDescription() {
+        return null;
+    }
+
+    @Override
+    public String getName() {
+        return null;
     }
 }

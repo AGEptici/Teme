@@ -1,6 +1,6 @@
 package oop;
 
-public abstract class AShape  {
+public abstract class AShape {
 
     //Returns shape's area
     //@return area as double
@@ -12,6 +12,8 @@ public abstract class AShape  {
     //Returns shape's perimeter
     //@return perimeter as double
     public abstract double getPerimeter();
+
+
 
 
 }
